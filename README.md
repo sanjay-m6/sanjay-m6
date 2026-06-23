@@ -23,42 +23,41 @@
 ## `> init sanjay.rs`
 
 ```rust
-//! ╔══════════════════════════════════════════════════════════════╗
-//! ║              sanjay.rs  —  v2026.06  (stable)               ║
-//! ║         Founder · Systems Builder · Full Stack Engineer      ║
-//! ╚══════════════════════════════════════════════════════════════╝
+//! ╔══════════════════════════════════════════════════════╗
+//!           Founder · Systems Builder · Engineer
+//! ╚══════════════════════════════════════════════════════╝
 
 use location::{"Tamil Nadu, India 🇮🇳"};
 use contact::{"sanjayofficial86s@gmail.com"};
 use web::{"https://www.infinitywebtechnology.com"};
 
-// ── Identity ────────────────────────────────────────────────────
+// ── Identity ────────────────────────────────────────────
 #[derive(Founder, Engineer, Builder)]
 pub struct Sanjay {
-    role:       Role::Founder("Infinity Web Technology"),
-    location:   "Tamil Nadu, India 🇮🇳",
+    role:      Role::Founder("Infinity Web Technology"),
+    location:  "Tamil Nadu, India 🇮🇳",
 
-    // ── Core Stack ──────────────────────────────────────────────
-    languages:  &["Rust", "TypeScript", "Python", "JavaScript", "Java"],
-    frontend:   &["React", "Next.js", "TailwindCSS", "Vue.js", "Framer Motion"],
-    backend:    &["Node.js", "Tauri v2", "NestJS", "Django", "Express"],
-    databases:  &["PostgreSQL", "MongoDB", "MySQL", "Prisma", "Firebase"],
-    cloud:      &["AWS", "Azure", "GCP", "Docker", "Nginx"],
+    // ── Core Stack ────────────────────────────────────
+    languages: &["Rust", "TypeScript", "Python", "JavaScript"],
+    frontend:  &["React", "Next.js", "TailwindCSS", "Vue.js"],
+    backend:   &["Node.js", "Tauri v2", "NestJS", "Django"],
+    databases: &["PostgreSQL", "MongoDB", "Prisma", "Firebase"],
+    cloud:     &["AWS", "Azure", "GCP", "Docker", "Nginx"],
 
-    // ── Currently Shipping ───────────────────────────────────────
+    // ── Currently Shipping ────────────────────────────
     building: [
-        Project { name: "ARK ASA Server Manager 2.0", status: Status::Live    },
-        Project { name: "Infinity Chat",               status: Status::Building },
+        Project { name: "ARK ASA Server Manager 2.0",      status: Status::Live     },
+        Project { name: "Infinity Chat",                    status: Status::Building },
         Project { name: "PhIX – Pharmacy Incident Exchange", status: Status::Building },
     ],
 
-    // ── Impact ───────────────────────────────────────────────────
-    delivered:  Metric { projects: 100, engineers: 50, growth: "300%" },
+    // ── Impact ────────────────────────────────────────
+    delivered:  Metric { projects: 100+, engineers: 50+, growth: "300%" },
     uptime:     "99.9%",
-    domains:    &["Desktop Apps", "SaaS", "AI/ML", "Game Modding", "Unreal Engine"],
+    domains:    &["Desktop Apps", "SaaS", "AI/ML", "Game Modding"],
 }
 
-// ── Philosophy ──────────────────────────────────────────────────
+// ── Philosophy ───────────────────────────────────────────
 impl Sanjay {
     fn philosophy(&self) -> &str {
         "Don't just write code — architect solutions.
