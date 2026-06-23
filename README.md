@@ -23,34 +23,72 @@
 ## `> init sanjay.rs`
 
 ```rust
-struct Sanjay {
-    role:      "Founder @ Infinity Web Technology",
-    location:  "Tamil Nadu, India 🇮🇳",
-    website:   "https://www.infinitywebtechnology.com",
-    contact:   "sanjayofficial86s@gmail.com",
+//! ╔══════════════════════════════════════════════════════════════╗
+//! ║              sanjay.rs  —  v2026.06  (stable)               ║
+//! ║         Founder · Systems Builder · Full Stack Engineer      ║
+//! ╚══════════════════════════════════════════════════════════════╝
 
-    stack:     ["Rust", "React", "TypeScript", "Python", "Next.js"],
-    currently: ["ARK ASA Server Manager 2.0", "Infinity Chat", "PhIX SaaS"],
+use location::{"Tamil Nadu, India 🇮🇳"};
+use contact::{"sanjayofficial86s@gmail.com"};
+use web::{"https://www.infinitywebtechnology.com"};
 
-    delivered: Projects(100+) | Engineers(50+) | Growth("300%"),
-    domains:   ["Desktop Apps", "SaaS", "AI/ML", "Game Modding", "Unreal Engine"],
+// ── Identity ────────────────────────────────────────────────────
+#[derive(Founder, Engineer, Builder)]
+pub struct Sanjay {
+    role:       Role::Founder("Infinity Web Technology"),
+    location:   "Tamil Nadu, India 🇮🇳",
 
-    philosophy: "Create your own magic ✨",
+    // ── Core Stack ──────────────────────────────────────────────
+    languages:  &["Rust", "TypeScript", "Python", "JavaScript", "Java"],
+    frontend:   &["React", "Next.js", "TailwindCSS", "Vue.js", "Framer Motion"],
+    backend:    &["Node.js", "Tauri v2", "NestJS", "Django", "Express"],
+    databases:  &["PostgreSQL", "MongoDB", "MySQL", "Prisma", "Firebase"],
+    cloud:      &["AWS", "Azure", "GCP", "Docker", "Nginx"],
+
+    // ── Currently Shipping ───────────────────────────────────────
+    building: [
+        Project { name: "ARK ASA Server Manager 2.0", status: Status::Live    },
+        Project { name: "Infinity Chat",               status: Status::Building },
+        Project { name: "PhIX – Pharmacy Incident Exchange", status: Status::Building },
+    ],
+
+    // ── Impact ───────────────────────────────────────────────────
+    delivered:  Metric { projects: 100, engineers: 50, growth: "300%" },
+    uptime:     "99.9%",
+    domains:    &["Desktop Apps", "SaaS", "AI/ML", "Game Modding", "Unreal Engine"],
+}
+
+// ── Philosophy ──────────────────────────────────────────────────
+impl Sanjay {
+    fn philosophy(&self) -> &str {
+        "Don't just write code — architect solutions.
+         Don't just ship products — build experiences. ✨"
+    }
+
+    fn approach(&self) -> Mission {
+        Mission {
+            quality:  "Enterprise-grade",
+            pricing:  "Freelancer-friendly",
+            mantra:   "If it can be built — build it better.",
+        }
+    }
 }
 ```
-
-> Building **[Infinity Web Technology](https://www.infinitywebtechnology.com)** — India's software studio delivering enterprise-grade, scalable products at freelancer pricing. From Tauri desktop tools to multi-tenant SaaS platforms and ARK game mods. Clean architecture. Real-world impact.
 
 <div align="center">
 <br/>
 
-![](https://img.shields.io/badge/100%2B_Projects-Delivered-7c3aed?style=flat-square&labelColor=1a1a2e)
+![](https://img.shields.io/badge/📦_100%2B-Projects_Delivered-7c3aed?style=for-the-badge&labelColor=0d0d1a)
 &nbsp;
-![](https://img.shields.io/badge/50%2B_Engineers-Expert_Network-7c3aed?style=flat-square&labelColor=1a1a2e)
+![](https://img.shields.io/badge/👥_50%2B-Expert_Engineers-7c3aed?style=for-the-badge&labelColor=0d0d1a)
 &nbsp;
-![](https://img.shields.io/badge/300%25-Client_Growth-7c3aed?style=flat-square&labelColor=1a1a2e)
+![](https://img.shields.io/badge/📈_300%25-Client_Growth-7c3aed?style=for-the-badge&labelColor=0d0d1a)
 &nbsp;
-![](https://img.shields.io/badge/99.9%25-Uptime-7c3aed?style=flat-square&labelColor=1a1a2e)
+![](https://img.shields.io/badge/⚡_99.9%25-Uptime-7c3aed?style=for-the-badge&labelColor=0d0d1a)
+
+<br/>
+
+> 🚀 Founder of **[Infinity Web Technology](https://www.infinitywebtechnology.com)** — India's software studio delivering **enterprise-grade, scalable products** at freelancer pricing. Tauri desktop tools · Multi-tenant SaaS · ARK game mods · AI-powered platforms.
 
 </div>
 
@@ -89,6 +127,11 @@ struct Sanjay {
 
 </td>
 <td width="50%">
+
+### 🏥 PhIX — Pharmacy Incident Exchange
+`Next.js 15` `Prisma` `PostgreSQL` `Google AI`
+> Canadian pharmacy safety SaaS. Three-portal architecture with RBAC + AI reporting.
+**Status:** 🔨 Building
 
 </td>
 </tr>
