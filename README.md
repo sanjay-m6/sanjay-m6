@@ -90,11 +90,6 @@ struct Sanjay {
 </td>
 <td width="50%">
 
-### 🏥 PhIX — Pharmacy Incident Exchange
-`Next.js 15` `Prisma` `PostgreSQL` `Google AI`
-> Canadian pharmacy safety SaaS. Three-portal architecture with RBAC + AI reporting.
-**Status:** 🔨 Building
-
 </td>
 </tr>
 </table>
