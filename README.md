@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Sanjay%20M&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Engineer%20%E2%80%A2%20Systems%20Builder%20%E2%80%A2%20Founder&descAlignY=55&descSize=18&animation=fadeIn" />
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=Founder+%40+Infinity+Web+Technology+%F0%9F%9A%80;Full+Stack+Engineer+%7C+Rust+%2B+React+%2B+Python;Building+Desktop+Apps+with+Tauri+%26+Rust;ARK+Server+Manager+%7C+Game+Mod+Dev;Turning+Ideas+into+Scalable+Products+%E2%9C%A8)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=Founder+%40+Infinity+Web+Technology+%F0%9F%9A%80;Full+Stack+Engineer+%7C+Rust+%2B+React+%2B+Python;Building+Desktop+Apps+with+Tauri+%26+Rust;ARK+Server+Manager+%7C+Game+Mod+Dev;100%2B+Projects+Delivered+%E2%9C%85+Enterprise+Grade)](https://git.io/typing-svg)
 
 <br/>
 
@@ -24,27 +24,55 @@
 ```rust
 struct Sanjay {
     role:      "Founder @ Infinity Web Technology",
+    website:   "https://www.infinitywebtechnology.com",
     location:  "Tamil Nadu, India 🇮🇳",
     stack:     ["Rust", "React", "Python", "TypeScript", "Next.js"],
     building:  ["ARK ASA Server Manager 2.0", "Infinity Chat", "PhIX SaaS"],
+    delivered: "100+ Projects | 50+ Engineers | Enterprise-grade at freelancer pricing",
     interests: ["Desktop Apps", "Game Modding", "AI/ML", "Unreal Engine"],
     contact:   "sanjayofficial86s@gmail.com",
     fun_fact:  "Create your own magic ✨",
 }
 ```
 
-> 🚀 I build **scalable, secure, and high-performance** applications — from SaaS platforms and desktop tools to game mods and AI-powered products. Clean architecture, real-world impact.
+> 🚀 Founder of **[Infinity Web Technology](https://www.infinitywebtechnology.com)** — India's budget-friendly software brand delivering **enterprise-grade, scalable solutions** at freelancer pricing. From SaaS platforms and desktop tools to game mods and AI-powered products. Clean architecture, real-world impact.
+
+<div align="center">
+
+![Projects](https://img.shields.io/badge/Projects%20Delivered-100%2B-7c3aed?style=for-the-badge&labelColor=1a1a2e)
+![Engineers](https://img.shields.io/badge/Expert%20Engineers-50%2B-7c3aed?style=for-the-badge&labelColor=1a1a2e)
+![Growth](https://img.shields.io/badge/Client%20Growth-300%25-7c3aed?style=for-the-badge&labelColor=1a1a2e)
+![Uptime](https://img.shields.io/badge/Uptime-99.9%25-7c3aed?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
 
 ---
 
-## 🚧 Current Projects
+## 🚧 What I'm Building
 
 | Project | Stack | Status |
 |--------|-------|--------|
-| 🎮 **ARK ASA Server Manager 2.0** | Tauri v2 · Rust · React | 🟢 Active |
+| 🌐 **[Infinity Web Technology](https://www.infinitywebtechnology.com)** | Next.js · React · TypeScript · TailwindCSS | 🟢 Live |
+| 🎮 **[ARK ASA Server Manager 2.0](https://arkservermanager.app)** | Tauri v2 · Rust · React | 🟢 Active |
 | 💬 **Infinity Chat** | Tauri v2 · React 18 · TypeScript · SQLCipher | 🔨 Building |
 | 🏥 **PhIX – Pharmacy Incident Exchange** | Next.js 15 · Prisma · PostgreSQL · Google AI | 🔨 Building |
-| 🌐 **Infinity Web Technology** | Client Web Projects across multiple industries | 🟢 Active |
+
+---
+
+## 🏢 Infinity Web Technology — Services
+
+> **[infinitywebtechnology.com](https://www.infinitywebtechnology.com)** · Premium Software. Freelancer Pricing.
+
+| # | Service | Highlights |
+|---|---------|-----------|
+| 01 | 🧩 **Custom Software** | ERP · Workflow Automation · Legacy Modernization |
+| 02 | 🌐 **Web Applications** | PWA · Dashboards · SEO-Optimized Landing Pages |
+| 03 | ☁️ **SaaS Development** | Multi-tenant · Subscription Systems · RBAC |
+| 04 | 📱 **Mobile Apps** | React Native · Flutter · iOS & Android |
+| 05 | 🔌 **API Integration** | REST · GraphQL · Payment Gateways |
+| 06 | ⚙️ **Cloud & DevOps** | AWS · Azure · Docker · CI/CD Pipelines |
+| 07 | 🔐 **Security Audits** | Pentesting · GDPR · HIPAA Compliance |
+| 08 | 🛟 **24/7 Maintenance** | Monitoring · Performance · Security Patches |
 
 ---
 
@@ -67,6 +95,7 @@ struct Sanjay {
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
 ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00C58E?style=for-the-badge&logo=nuxt.js&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ### ⚙️ Backend & Runtime
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
@@ -126,7 +155,7 @@ struct Sanjay {
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sanjay-m6&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" />
+  <img src="https://github-profile-trophy.vercel.app/?username=sanjay-m6&theme=nord&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8" />
 </div>
 
 ---
@@ -135,12 +164,13 @@ struct Sanjay {
 
 <div align="center">
 
+[![Website](https://img.shields.io/badge/Infinity%20Web%20Technology-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.infinitywebtechnology.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-m-infinity/)
 [![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/sanjaym6)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hPmgDrZJ)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/916382123434?text=Hi!%20I'm%20interested%20in%20your%20services.)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanjayofficial86s@gmail.com)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/infinity86)
-[![Website](https://img.shields.io/badge/Website-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arkservermanager.app)
 
 </div>
 
@@ -163,6 +193,6 @@ struct Sanjay {
 <!-- FOOTER WAVE -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" />
 
-<sub>⚡ Built with passion from Tamil Nadu, India — <strong>Infinity Web Technology</strong> 🚀</sub>
+<sub>⚡ Built with passion from Tamil Nadu, India — <a href="https://www.infinitywebtechnology.com"><strong>Infinity Web Technology</strong></a> 🚀</sub>
 
 </div>
