@@ -25,7 +25,7 @@
 struct Sanjay {
     role:      "Founder @ Infinity Web Technology",
     website:   "https://www.infinitywebtechnology.com",
-    location:  "Tamil Nadu, India 🇮🇳",
+    location:  "Tamil Nadu, India",
     stack:     ["Rust", "React", "Python", "TypeScript", "Next.js"],
     building:  ["ARK ASA Server Manager 2.0", "Infinity Chat", "PhIX SaaS"],
     delivered: "100+ Projects | 50+ Engineers | Enterprise-grade at freelancer pricing",
