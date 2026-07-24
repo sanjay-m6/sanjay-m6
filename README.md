@@ -64,6 +64,15 @@
 **Status:** 🟢 Active
 
 </td>
+<td width="50%">
+
+### 🎮 Palworld server manager 
+**[palworldserver.tech]((https://www.palworldserver.tech/))**
+`Tauri v2` `Rust` `React`
+> Desktop app for managing Palword server Manager easy to manager your all server.
+**Status:** 🟢 Active
+
+</td>
 </tr>
 <tr>
 <td width="50%">
