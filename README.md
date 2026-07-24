@@ -22,57 +22,6 @@
 
 ## `>SANJAY M`
 
-```rust
-//! ╔══════════════════════════════════════════════════════╗
-//!           Founder · Systems Builder · Engineer
-//! ╚══════════════════════════════════════════════════════╝
-
-use location::{"Tamil Nadu, India 🇮🇳"};
-use contact::{"sanjayofficial86s@gmail.com"};
-use web::{"https://www.infinitywebtechnology.com"};
-
-// ── Identity ────────────────────────────────────────────
-#[derive(Founder, Engineer, Builder)]
-pub struct Sanjay {
-    role:      Role::Founder("Infinity Web Technology"),
-    location:  "Tamil Nadu, India 🇮🇳",
-
-    // ── Core Stack ────────────────────────────────────
-    languages: &["Rust", "TypeScript", "Python", "JavaScript"],
-    frontend:  &["React", "Next.js", "TailwindCSS", "Vue.js"],
-    backend:   &["Node.js", "Tauri v2", "NestJS", "Django"],
-    databases: &["PostgreSQL", "MongoDB", "Prisma", "Firebase"],
-    cloud:     &["AWS", "Azure", "GCP", "Docker", "Nginx"],
-
-    // ── Currently Shipping ────────────────────────────
-    building: [
-        Project { name: "ARK ASA Server Manager 2.0",      status: Status::Live     },
-        Project { name: "Infinity Chat",                    status: Status::Building },
-        Project { name: "PhIX – Pharmacy Incident Exchange", status: Status::Building },
-    ],
-
-    // ── Impact ────────────────────────────────────────
-    delivered:  Metric { projects: 100+, engineers: 50+, growth: "300%" },
-    uptime:     "99.9%",
-    domains:    &["Desktop Apps", "SaaS", "AI/ML", "Game Modding"],
-}
-
-// ── Philosophy ───────────────────────────────────────────
-impl Sanjay {
-    fn philosophy(&self) -> &str {
-        "Don't just write code — architect solutions.
-         Don't just ship products — build experiences. ✨"
-    }
-
-    fn approach(&self) -> Mission {
-        Mission {
-            quality:  "Enterprise-grade",
-            pricing:  "Freelancer-friendly",
-            mantra:   "If it can be built — build it better.",
-        }
-    }
-}
-```
 
 <div align="center">
 <br/>
@@ -122,14 +71,6 @@ impl Sanjay {
 ### 💬 Infinity Chat
 `Tauri v2` `React 18` `TypeScript` `SQLCipher`
 > AI-powered desktop chat platform with lead generation engine and WhatsApp outreach.
-**Status:** 🔨 Building
-
-</td>
-<td width="50%">
-
-### 🏥 PhIX — Pharmacy Incident Exchange
-`Next.js 15` `Prisma` `PostgreSQL` `Google AI`
-> Canadian pharmacy safety SaaS. Three-portal architecture with RBAC + AI reporting.
 **Status:** 🔨 Building
 
 </td>
